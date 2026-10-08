@@ -121,7 +121,274 @@ export const BOOKS = [
     caveat: 'Settle in for a long opening, elaborate footnotes, and nineteenth-century-style prose. This is a world to inhabit at leisure.',
     palette: { background: '#4e5950', accent: '#ccb88e', ink: '#f3ead6' }, motif: 'moon',
   },
+  {
+    id: 'the-giver', title: 'The Giver', author: 'Lois Lowry', pages: 240, year: 1993,
+    genres: ['Young adult', 'Dystopian fiction'], moods: ['thoughtful', 'exciting', 'emotional'], complexity: 2,
+    avoidances: ['sad'],
+    description: 'In a community that has traded pain and choice for sameness, twelve-year-old Jonas is chosen to inherit memories that change how he sees his world.',
+    caveat: 'This short dystopian novel explores control, loss, and difficult moral choices. Its ending leaves room for interpretation.',
+    palette: { background: '#64758a', accent: '#d9c17d', ink: '#f5efdf' }, motif: 'moon',
+  },
+  {
+    id: 'the-martian', title: 'The Martian', author: 'Andy Weir', pages: 369, year: 2011,
+    genres: ['Science fiction', 'Survival'], moods: ['exciting', 'thoughtful'], complexity: 2,
+    avoidances: [],
+    description: 'Stranded on Mars after his crew evacuates, botanist Mark Watney uses ingenuity, humor, and careful problem-solving to stay alive and get home.',
+    caveat: 'The narration includes frequent technical explanations and strong language. The plot centers on a long survival emergency.',
+    palette: { background: '#a94f36', accent: '#e5bd77', ink: '#fff0dc' }, motif: 'mountains',
+  },
+  {
+    id: 'remarkably-bright-creatures', title: 'Remarkably Bright Creatures', author: 'Shelby Van Pelt', pages: 368, year: 2022,
+    genres: ['Contemporary fiction', 'Mystery'], moods: ['comfort', 'thoughtful', 'emotional'], complexity: 1,
+    avoidances: ['sad'],
+    description: 'A widowed cleaner at an aquarium forms an unexpected bond with a clever giant Pacific octopus, whose observations help uncover a decades-old mystery.',
+    caveat: 'Grief and family secrets shape the story. The alternating viewpoints include an observant octopus, which gives the book a fable-like quality.',
+    palette: { background: '#3d6f76', accent: '#e1bd76', ink: '#f6f0df' }, motif: 'waves',
+  },
+  {
+    id: 'irregular-witches', title: 'The Very Secret Society of Irregular Witches', author: 'Sangu Mandanna', pages: 336, year: 2022,
+    genres: ['Cozy fantasy', 'Romance'], moods: ['comfort', 'escape', 'emotional'], complexity: 1,
+    avoidances: ['romance'],
+    description: 'A solitary witch takes a position teaching three young witches at a remote house, where an unconventional family begins to take shape.',
+    caveat: 'A gentle romance is part of the central story, alongside themes of belonging, loneliness, and found family.',
+    palette: { background: '#65704d', accent: '#e0bd77', ink: '#fff2dd' }, motif: 'botanical',
+  },
+  {
+    id: 'midnight-library', title: 'The Midnight Library', author: 'Matt Haig', pages: 304, year: 2020,
+    genres: ['Contemporary fiction', 'Fantasy'], moods: ['thoughtful', 'emotional', 'comfort'], complexity: 1,
+    avoidances: ['sad'],
+    description: 'Between life and death, Nora finds a library of alternate lives and gets to explore the paths she might have taken.',
+    caveat: 'The book opens with suicidal thoughts and explores regret and depression, though it ultimately aims for hope.',
+    palette: { background: '#31566b', accent: '#d8b864', ink: '#fff2dc' }, motif: 'stars',
+  },
+  {
+    id: 'convenience-store-woman', title: 'Convenience Store Woman', author: 'Sayaka Murata', pages: 176, year: 2016,
+    genres: ['Japanese fiction', 'Literary fiction'], moods: ['thoughtful', 'comfort'], complexity: 2,
+    avoidances: [],
+    description: 'Keiko has found routine and purpose in her convenience-store job. Pressure to live a more conventional life unsettles the system she has built.',
+    caveat: 'Its dry, observant humor touches on social conformity and belonging. The protagonist’s perspective can feel deliberately unconventional.',
+    palette: { background: '#66806d', accent: '#e4ca83', ink: '#f9f0dc' }, motif: 'sun',
+  },
+  {
+    id: 'long-way-small-angry-planet', title: 'The Long Way to a Small, Angry Planet', author: 'Becky Chambers', pages: 432, year: 2014,
+    genres: ['Science fiction', 'Found family'], moods: ['comfort', 'escape', 'thoughtful'], complexity: 2,
+    avoidances: ['slow', 'worldbuilding'],
+    description: 'The crew of a small tunneling ship travels across the galaxy, making a living through their work and finding a family among very different people.',
+    caveat: 'This is a character-focused journey with an expansive setting and a relaxed pace, rather than a fast, conflict-driven space adventure.',
+    palette: { background: '#416b73', accent: '#e4b96c', ink: '#f5edda' }, motif: 'stars',
+  },
+  {
+    id: 'song-of-achilles', title: 'The Song of Achilles', author: 'Madeline Miller', pages: 416, year: 2011,
+    genres: ['Mythology', 'Literary fiction'], moods: ['emotional', 'escape', 'thoughtful'], complexity: 2,
+    avoidances: ['romance', 'sad'],
+    description: 'Patroclus tells the story of his bond with Achilles, from their youth together to the Trojan War and the fate awaiting them both.',
+    caveat: 'The central relationship is romantic, and the story builds toward the tragedy of the Trojan War.',
+    palette: { background: '#76504e', accent: '#d5af71', ink: '#f5ead7' }, motif: 'sun',
+  },
+  {
+    id: 'book-thief', title: 'The Book Thief', author: 'Markus Zusak', pages: 552, year: 2005,
+    genres: ['Historical fiction', 'Literary fiction'], moods: ['emotional', 'thoughtful', 'exciting'], complexity: 2,
+    avoidances: ['sad'],
+    description: 'In Nazi Germany, a young girl finds refuge in books and words while her foster family shelters a Jewish man in their basement.',
+    caveat: 'Set during the Holocaust, this is a story of war, persecution, and loss. Its narrator signals the tragic stakes early.',
+    palette: { background: '#566277', accent: '#d8ba78', ink: '#f5ecdc' }, motif: 'moon',
+  },
+  {
+    id: 'seven-husbands', title: 'The Seven Husbands of Evelyn Hugo', author: 'Taylor Jenkins Reid', pages: 400, year: 2017,
+    genres: ['Historical fiction', 'Romance'], moods: ['emotional', 'exciting', 'thoughtful'], complexity: 1,
+    avoidances: ['sad'],
+    description: 'An aging Hollywood star finally tells the story of her glamorous career, her seven marriages, and the private love that shaped her life.',
+    caveat: 'The novel includes a central queer romance, complicated relationships, and themes of discrimination and loss.',
+    palette: { background: '#87604d', accent: '#e4c67b', ink: '#fff2dc' }, motif: 'sun',
+  },
+  {
+    id: 'blue-castle', title: 'The Blue Castle', author: 'L. M. Montgomery', pages: 256, year: 1926,
+    genres: ['Classic', 'Romance'], moods: ['comfort', 'emotional', 'escape'], complexity: 2,
+    avoidances: [],
+    description: 'After a health scare, quiet Valancy Stirling decides to stop living by her family’s rules and pursue the life she has only imagined.',
+    caveat: 'The book reflects its 1920s setting and includes dated language and social attitudes. Its romantic ending is a major part of the appeal.',
+    palette: { background: '#687b68', accent: '#dfc27c', ink: '#fff1dc' }, motif: 'botanical',
+  },
+  {
+    id: 'housekeeper-professor', title: 'The Housekeeper and the Professor', author: 'Yoko Ogawa', pages: 192, year: 2003,
+    genres: ['Japanese fiction', 'Literary fiction'], moods: ['comfort', 'thoughtful', 'emotional'], complexity: 2,
+    avoidances: ['sad'],
+    description: 'A housekeeper and her son care for a mathematics professor whose memory lasts only eighty minutes. Numbers become a language of connection.',
+    caveat: 'The story is quiet and reflective, with illness and memory loss at its center.',
+    palette: { background: '#657981', accent: '#e1c17a', ink: '#f7f0df' }, motif: 'window',
+  },
+  {
+    id: 'project-hail-mary', title: 'Project Hail Mary', author: 'Andy Weir', pages: 496, year: 2021,
+    genres: ['Science fiction', 'Adventure'], moods: ['exciting', 'thoughtful', 'escape'], complexity: 2,
+    avoidances: [],
+    description: 'An astronaut wakes alone on a spacecraft with no memory of how he got there. Rebuilding the mission one clue at a time becomes a race to save Earth.',
+    caveat: 'The science is explained in detail, and the story includes peril and isolation. Its humor keeps the high stakes approachable for many readers.',
+    palette: { background: '#36536c', accent: '#e3bd69', ink: '#f5efdf' }, motif: 'stars',
+  },
+  {
+    id: 'kindred', title: 'Kindred', author: 'Octavia E. Butler', pages: 288, year: 1979,
+    genres: ['Science fiction', 'Historical fiction'], moods: ['thoughtful', 'emotional', 'exciting'], complexity: 3,
+    avoidances: ['sad'],
+    description: 'Dana, a Black writer in 1970s California, is repeatedly pulled back in time to a Maryland plantation, where her survival becomes tied to a white ancestor.',
+    caveat: 'The novel contains enslavement, racist violence, and other traumatic scenes. It is powerful but emotionally intense.',
+    palette: { background: '#754f44', accent: '#d8b779', ink: '#f7ecd9' }, motif: 'sun',
+  },
+  {
+    id: 'left-hand-darkness', title: 'The Left Hand of Darkness', author: 'Ursula K. Le Guin', pages: 304, year: 1969,
+    genres: ['Science fiction', 'Literary fiction'], moods: ['thoughtful', 'escape'], complexity: 3,
+    avoidances: ['slow', 'worldbuilding'],
+    description: 'An envoy travels to the winter planet Gethen to invite its people into an interplanetary alliance, but trust and cultural assumptions complicate the mission.',
+    caveat: 'This classic is reflective, with extensive world-building and dated language around gender in places.',
+    palette: { background: '#536879', accent: '#c8d0c4', ink: '#f4eee1' }, motif: 'moon',
+  },
+  {
+    id: 'anxious-people', title: 'Anxious People', author: 'Fredrik Backman', pages: 352, year: 2019,
+    genres: ['Contemporary fiction', 'Mystery'], moods: ['comfort', 'emotional', 'thoughtful'], complexity: 2,
+    avoidances: ['sad'],
+    description: 'A failed bank robber takes a group of strangers hostage during an apartment viewing. As the police question them, the strangers’ lives begin to connect.',
+    caveat: 'The story moves between comic misunderstandings and serious topics, including anxiety, grief, and suicide.',
+    palette: { background: '#697b70', accent: '#e1c57e', ink: '#f8f0de' }, motif: 'window',
+  },
+  {
+    id: 'yellowface', title: 'Yellowface', author: 'R. F. Kuang', pages: 336, year: 2023,
+    genres: ['Literary fiction', 'Satire'], moods: ['exciting', 'thoughtful'], complexity: 2,
+    avoidances: [],
+    description: 'After a fellow writer dies, June Hayward takes credit for an unfinished manuscript and watches her new literary success become harder to control.',
+    caveat: 'This sharp publishing satire explores racism, appropriation, and online harassment. Its narrator is intentionally unreliable.',
+    palette: { background: '#9a5343', accent: '#dbbe78', ink: '#fff1de' }, motif: 'sun',
+  },
+  {
+    id: 'babel', title: 'Babel', author: 'R. F. Kuang', pages: 560, year: 2022,
+    genres: ['Historical fantasy', 'Dark academia'], moods: ['thoughtful', 'exciting', 'escape'], complexity: 4,
+    avoidances: ['slow', 'dense', 'worldbuilding'],
+    description: 'In an alternate 1830s Oxford, a student from Canton studies translation and silver-working magic at the Royal Institute, where scholarship serves empire.',
+    caveat: 'This is a long, research-rich novel about colonialism and language, with racism, violence, and detailed footnotes.',
+    palette: { background: '#555047', accent: '#cba85f', ink: '#f4ead6' }, motif: 'window',
+  },
+  {
+    id: 'the-maid', title: 'The Maid', author: 'Nita Prose', pages: 304, year: 2022,
+    genres: ['Mystery', 'Crime'], moods: ['exciting', 'comfort'], complexity: 1,
+    avoidances: [],
+    description: 'Hotel maid Molly Gray is unusually good at her job. When she discovers a guest dead in his suite, her attention to detail makes her central to the investigation.',
+    caveat: 'Molly’s distinct social perspective drives the book. The mystery also includes grief and a death at its center.',
+    palette: { background: '#71816e', accent: '#ddc483', ink: '#fff2dc' }, motif: 'window',
+  },
+  {
+    id: 'guest-list', title: 'The Guest List', author: 'Lucy Foley', pages: 320, year: 2020,
+    genres: ['Mystery', 'Thriller'], moods: ['exciting', 'thoughtful'], complexity: 2,
+    avoidances: ['sad'],
+    description: 'A glamorous wedding on a remote Irish island brings old friends and family together. By morning, one guest is dead and everyone has a reason to lie.',
+    caveat: 'The story alternates among several narrators and includes violence, strained relationships, and a bleak atmosphere.',
+    palette: { background: '#42555a', accent: '#c6b37a', ink: '#f5efde' }, motif: 'waves',
+  },
+  {
+    id: 'silent-patient', title: 'The Silent Patient', author: 'Alex Michaelides', pages: 336, year: 2019,
+    genres: ['Psychological thriller', 'Mystery'], moods: ['exciting', 'thoughtful'], complexity: 2,
+    avoidances: ['sad'],
+    description: 'After a celebrated painter shoots her husband and stops speaking, a psychotherapist becomes determined to understand her silence.',
+    caveat: 'This twist-driven thriller involves violence, trauma, and mental health treatment. Some readers may find its portrayal of mental illness reductive.',
+    palette: { background: '#66616a', accent: '#d9b982', ink: '#f7efdf' }, motif: 'moon',
+  },
+  {
+    id: 'beach-read', title: 'Beach Read', author: 'Emily Henry', pages: 384, year: 2020,
+    genres: ['Romance', 'Contemporary fiction'], moods: ['comfort', 'emotional', 'exciting'], complexity: 1,
+    avoidances: ['romance'],
+    description: 'A romance writer and a literary novelist spend the summer as neighbors and challenge each other to write outside their usual genres.',
+    caveat: 'The romance is central. Both characters are working through grief and difficult family histories.',
+    palette: { background: '#66818a', accent: '#e6c478', ink: '#fff2df' }, motif: 'sun',
+  },
+  {
+    id: 'book-lovers', title: 'Book Lovers', author: 'Emily Henry', pages: 400, year: 2022,
+    genres: ['Romance', 'Contemporary fiction'], moods: ['comfort', 'emotional', 'thoughtful'], complexity: 1,
+    avoidances: ['romance'],
+    description: 'A sharp-edged literary agent keeps running into the same book editor during a small-town trip with her sister, despite every expectation of a meet-cute.',
+    caveat: 'A contemporary romance sits alongside a complicated sister relationship and themes of family responsibility.',
+    palette: { background: '#a75e48', accent: '#e3c47a', ink: '#fff1dc' }, motif: 'botanical',
+  },
+  {
+    id: 'pride-and-prejudice', title: 'Pride and Prejudice', author: 'Jane Austen', pages: 432, year: 1813,
+    genres: ['Classic', 'Romance'], moods: ['comfort', 'thoughtful', 'emotional'], complexity: 2,
+    avoidances: ['slow'],
+    description: 'Elizabeth Bennet navigates family expectations, social standing, and her own first impressions after meeting the proud Mr. Darcy.',
+    caveat: 'The humor depends on manners and social conventions of the Regency period, and the language may take a little adjustment.',
+    palette: { background: '#78705d', accent: '#d8c28a', ink: '#f9f0df' }, motif: 'botanical',
+  },
+  {
+    id: 'jane-eyre', title: 'Jane Eyre', author: 'Charlotte Brontë', pages: 532, year: 1847,
+    genres: ['Classic', 'Gothic fiction'], moods: ['emotional', 'thoughtful', 'escape'], complexity: 3,
+    avoidances: ['slow'],
+    description: 'An orphaned governess builds an independent life at Thornfield Hall, where her feelings for Mr. Rochester grow alongside a troubling mystery.',
+    caveat: 'The novel includes Victorian-era language, class prejudice, and a colonial subplot that reflects its period.',
+    palette: { background: '#66544d', accent: '#d7b773', ink: '#f4ead5' }, motif: 'window',
+  },
+  {
+    id: 'coraline', title: 'Coraline', author: 'Neil Gaiman', pages: 208, year: 2002,
+    genres: ['Fantasy', 'Horror'], moods: ['exciting', 'escape'], complexity: 1,
+    avoidances: [],
+    description: 'Exploring her new home, Coraline discovers a door to a parallel version of her life that seems better until its dangers become clear.',
+    caveat: 'A short, eerie story for younger readers and adults, with unsettling imagery and peril involving a child.',
+    palette: { background: '#3f5264', accent: '#d6bd7d', ink: '#f5eddd' }, motif: 'moon',
+  },
+  {
+    id: 'mexican-gothic', title: 'Mexican Gothic', author: 'Silvia Moreno-Garcia', pages: 320, year: 2020,
+    genres: ['Horror', 'Historical fiction'], moods: ['exciting', 'escape', 'thoughtful'], complexity: 2,
+    avoidances: ['sad'],
+    description: 'In 1950s Mexico, socialite Noemí Taboada visits her cousin in a decaying English-style mansion and uncovers the family’s sinister secrets.',
+    caveat: 'Gothic body horror, racism, and disturbing family dynamics build through the novel.',
+    palette: { background: '#536450', accent: '#d0ae69', ink: '#f6eedc' }, motif: 'botanical',
+  },
+  {
+    id: 'good-girls-guide', title: 'A Good Girl’s Guide to Murder', author: 'Holly Jackson', pages: 400, year: 2019,
+    genres: ['Young adult', 'Mystery'], moods: ['exciting', 'thoughtful'], complexity: 1,
+    avoidances: ['sad'],
+    description: 'For a school project, Pip reopens the case of a local teenager’s murder and finds that the accepted story leaves important questions unanswered.',
+    caveat: 'The case includes murder, stalking, and threats. The format mixes conventional chapters with notes and interview transcripts.',
+    palette: { background: '#65715f', accent: '#d9bd7b', ink: '#f7f0df' }, motif: 'moon',
+  },
+  {
+    id: 'name-of-the-wind', title: 'The Name of the Wind', author: 'Patrick Rothfuss', pages: 662, year: 2007,
+    genres: ['Fantasy', 'Adventure'], moods: ['escape', 'thoughtful', 'exciting'], complexity: 3,
+    avoidances: ['slow', 'worldbuilding'],
+    description: 'A legendary musician and magician recounts his childhood, education, and the events that turned him into a figure of rumor.',
+    caveat: 'This is a long, detailed first-person fantasy, and the larger story remains unfinished across the series.',
+    palette: { background: '#5a4c46', accent: '#cbb579', ink: '#f4ead6' }, motif: 'stars',
+  },
+  {
+    id: 'vanishing-half', title: 'The Vanishing Half', author: 'Brit Bennett', pages: 352, year: 2020,
+    genres: ['Literary fiction', 'Historical fiction'], moods: ['emotional', 'thoughtful'], complexity: 2,
+    avoidances: ['sad'],
+    description: 'Twin sisters from a small Southern Black community take sharply different paths, and the choices they make shape the next generation of their families.',
+    caveat: 'The novel deals with racism, identity, family separation, and painful personal histories.',
+    palette: { background: '#87604e', accent: '#ddc27d', ink: '#fff0db' }, motif: 'window',
+  },
+  {
+    id: 'educated', title: 'Educated', author: 'Tara Westover', pages: 352, year: 2018,
+    genres: ['Memoir', 'Biography'], moods: ['thoughtful', 'emotional', 'exciting'], complexity: 2,
+    avoidances: ['sad'],
+    description: 'Raised in a strict, isolated family, Tara Westover pursues an education that takes her from rural Idaho to universities and changes her sense of home.',
+    caveat: 'This memoir includes family estrangement, physical violence, and traumatic experiences.',
+    palette: { background: '#536c61', accent: '#dfc47e', ink: '#f7f0df' }, motif: 'mountains',
+  },
+  {
+    id: 'color-purple', title: 'The Color Purple', author: 'Alice Walker', pages: 304, year: 1982,
+    genres: ['Literary fiction', 'Historical fiction'], moods: ['emotional', 'thoughtful'], complexity: 2,
+    avoidances: ['sad'],
+    description: 'Through letters across decades, Celie describes the hardships and relationships that shape her life in the American South.',
+    caveat: 'The book depicts sexual and domestic violence, racism, and abuse, alongside resilience and community.',
+    palette: { background: '#65526f', accent: '#d9bd7c', ink: '#f7efdf' }, motif: 'botanical',
+  },
+  {
+    id: 'anthropocene-reviewed', title: 'The Anthropocene Reviewed', author: 'John Green', pages: 304, year: 2021,
+    genres: ['Essays', 'Nonfiction'], moods: ['thoughtful', 'comfort', 'emotional'], complexity: 2,
+    avoidances: [],
+    description: 'A collection of personal essays reviews parts of the human-centered age, from diet Dr Pepper to sunsets, with curiosity and feeling.',
+    caveat: 'The essays move between humor and reflections on illness, grief, and the climate crisis.',
+    palette: { background: '#668178', accent: '#e1c27a', ink: '#f8f0df' }, motif: 'sun',
+  },
 ];
+
+export const BOOK_GENRES = [...new Set(BOOKS.flatMap(book => book.genres))].sort((a, b) => a.localeCompare(b));
+export const BOOK_AUTHORS = [...new Set(BOOKS.map(book => book.author))].sort((a, b) => a.localeCompare(b));
 
 const ENERGY = { low: 1, easy: 2, think: 3, challenge: 4 };
 const SCHOOL_DEFAULTS = {
@@ -246,7 +513,7 @@ function momentFit(book, moment) {
 /**
  * Deterministic demo ranking, deliberately independent of the interface.
  * Scores rank the catalogue; they are not confidence or accuracy percentages.
- * Each avoidance penalty outweighs all positive preference bonuses combined.
+ * A single avoidance penalty outweighs mood, context, length, and favorite bonuses.
  */
 export function rankBooks(answers = {}) {
   const mood = Object.hasOwn(MOOD_REASONS, answers.mood) ? answers.mood : 'surprise';
@@ -255,6 +522,10 @@ export function rankBooks(answers = {}) {
   const { energy, length } = studentPreferences(answers, school, moment);
   const avoid = [...new Set(Array.isArray(answers.avoid) ? answers.avoid : [])]
     .filter(value => Object.hasOwn(AVOID_LABELS, value));
+  const favoriteGenres = [...new Set(Array.isArray(answers.favoriteGenres) ? answers.favoriteGenres : [])]
+    .filter(value => BOOK_GENRES.includes(value));
+  const favoriteAuthors = [...new Set(Array.isArray(answers.favoriteAuthors) ? answers.favoriteAuthors : [])]
+    .filter(value => BOOK_AUTHORS.includes(value));
 
   return BOOKS.map((book, index) => {
     let score = 0;
@@ -297,10 +568,20 @@ export function rankBooks(answers = {}) {
     if (schoolMatch.reason) reasons.push(schoolMatch.reason);
     if (momentMatch.reason) reasons.push(momentMatch.reason);
 
+    const genreMatch = favoriteGenres.find(genre => book.genres.includes(genre));
+    if (genreMatch) {
+      score += 20;
+      reasons.push(`You picked ${genreMatch} as a favorite genre, which is one of this book’s categories.`);
+    }
+    if (favoriteAuthors.includes(book.author)) {
+      score += 32;
+      reasons.push(`You picked ${book.author} as a favorite author.`);
+    }
+
     const conflicts = avoid.filter(value => book.avoidances.includes(value));
-    // Preference scores are bounded by -28..88, including both context bonuses.
-    // A 120-point penalty therefore puts every conflict below every clean match.
-    score -= conflicts.length * 120;
+    // Mood, length, context, and favorites are bounded by -28..140. A 180-point
+    // penalty keeps a conflicting book below every clean match.
+    score -= conflicts.length * 180;
     if (conflicts.length) {
       reasons.push(`A possible mismatch: expect ${joinItems(conflicts.map(value => AVOID_LABELS[value]))}, which you asked to avoid.`);
     }

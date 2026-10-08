@@ -31,8 +31,8 @@ test('all books remain available for another recommendation without duplicates o
   const originalOrder = BOOKS.map(book => book.id);
   const first = rankBooks({ mood: 'exciting', energy: 'easy', length: 'medium', avoid: ['sad'] });
   const second = rankBooks({ mood: 'exciting', energy: 'easy', length: 'medium', avoid: ['sad'] });
-  assert.equal(first.length, 15);
-  assert.equal(new Set(first.map(({ book }) => book.id)).size, 15);
+  assert.equal(first.length, BOOKS.length);
+  assert.equal(new Set(first.map(({ book }) => book.id)).size, BOOKS.length);
   assert.deepEqual(first, second);
   assert.deepEqual(BOOKS.map(book => book.id), originalOrder);
   assert.ok(first.every(({ score, reasons }) => Number.isFinite(score) && reasons.length > 0));
